@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 import javax.management.BadAttributeValueExpException;
-public class Ejerciciosiete {
+public class Ejercicio1 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
      

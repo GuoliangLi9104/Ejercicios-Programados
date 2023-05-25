@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 import javax.management.BadAttributeValueExpException;
-public class Ejerciciosiete {
+public class Ejercicio3 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
      
@@ -20,8 +20,10 @@ public class Ejerciciosiete {
          
          if (a > b){
             System.out.println(a + " Es mayor que " + b);
-         }else{
+         }else if (a < b) {
             System.out.println(b + " Es mayor que " + a);
+         }else{
+            System.out.println(a + " es igual que " + b);
          }
          }
         
