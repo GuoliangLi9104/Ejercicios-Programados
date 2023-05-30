@@ -1,6 +1,6 @@
 //Solcitar al usuario un número N de sueldos, y mostrar el sueldo máximo/
 import java.util.Scanner;
-public class Eje11 {
+public class Ejercicio11 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese el número de sueldos: ");
